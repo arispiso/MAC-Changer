@@ -26,7 +26,7 @@ def change_mac_address(interface, mac_address):
 
 def main():
     args = get_arguments()
-    change_mac_address(args, args.interface, args.mac_address)
+    change_mac_address(args.interface, args.mac_address)
 
 if __name__ == '__main__':
     main()
